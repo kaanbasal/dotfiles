@@ -1,0 +1,16 @@
+# Sourcing 'z' files
+if [ -f $(brew --prefix)/etc/profile.d/z.sh ]; then
+  . $(brew --prefix)/etc/profile.d/z.sh
+fi
+
+# Sourcing 'bash_completion' files
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+# Sourcing 'bash-git-prompt' files 
+if [ -f $(brew --prefix)/share/gitprompt.sh ]; then
+  __GIT_PROMPT_DIR=$(brew --prefix)"/opt/bash-git-prompt/share"
+  . $(brew --prefix)/share/gitprompt.sh
+fi
+

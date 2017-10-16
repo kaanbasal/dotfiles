@@ -1,0 +1,39 @@
+tap "caskroom/cask"
+tap "homebrew/bundle"
+tap "homebrew/core"
+
+brew "bash"
+
+brew "bash-completion"
+brew "bash-git-prompt"
+brew "curl"
+brew "git"
+brew "htop"
+brew "p7zip"
+brew "tree"
+brew "wget"
+brew "z"
+
+cask "vlc"
+cask "spotify"
+
+cask "alfred"
+cask "the-unarchiver"
+
+cask "slack"
+cask "skype"
+cask "zoomus"
+
+cask "firefox"
+cask "google-chrome"
+
+cask "iterm2"
+cask "sublime-text"
+
+cask "qlcolorcode"
+cask "betterzipql"
+cask "qlstephen"
+cask "qlmarkdown"
+cask "quicklook-json"
+cask "qlprettypatch"
+cask "quicklook-csv"
