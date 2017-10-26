@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd "$(dirname "$0")"
+
 bash_profile_path=~/.bash_profile
 
 if [ ! -f "${bash_profile_path}" ]; then
@@ -9,6 +11,9 @@ fi
 
 for dir in `find . -maxdepth 2 -mindepth 2 -type d`
 do
+  if [[ "${dir}" == *".git"* ]]; then
+    continue
+  fi
   dir=$(pwd)/${dir}
   suffix=$(basename $(dirname $dir))_$(basename $dir)
   install_sh=${dir}/install.sh

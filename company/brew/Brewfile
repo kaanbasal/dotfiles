@@ -1,8 +1,15 @@
+tap "homebrew/php"
 tap "caskroom/cask"
 tap "caskroom/versions"
+
+brew "php71"
+brew "php71-xdebug"
+brew "composer"
+brew "mariadb"
 
 cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "vagrant"
 cask "vagrant-manager"
 cask "sequel-pro"
+cask "phpstorm"
