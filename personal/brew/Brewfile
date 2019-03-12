@@ -14,24 +14,6 @@ brew "tree"
 brew "wget"
 brew "z"
 
-cask "vlc"
-cask "spotify"
-
-cask "alfred"
-cask "the-unarchiver"
-
-cask "duet"
-
-cask "slack"
-cask "skype"
-cask "zoomus"
-
-cask "firefox"
-cask "google-chrome"
-
-cask "iterm2"
-cask "sublime-text"
-
 cask "qlcolorcode"
 cask "betterzipql"
 cask "qlstephen"
@@ -39,5 +21,4 @@ cask "qlmarkdown"
 cask "quicklook-json"
 cask "qlprettypatch"
 cask "quicklook-csv"
-cask "intellij-idea"
 cask "fluid"
